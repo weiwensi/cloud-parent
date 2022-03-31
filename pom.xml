@@ -64,6 +64,11 @@
                 <artifactId>spring-cloud-starter-openfeign</artifactId>
                 <version>2.1.0.RELEASE</version>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+                <version>2.1.0.RELEASE</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <!--编译管理 jdk版本和字符集编码-->
