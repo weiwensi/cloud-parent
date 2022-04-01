@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-common" />
-        <module name="cloud-store" />
+        <module name="cloud-sentinel" />
         <module name="cloud-order" />
+        <module name="cloud-store" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
