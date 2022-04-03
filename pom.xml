@@ -13,6 +13,8 @@
         <module>cloud-store</module>
         <module>cloud-order</module>
         <module>cloud-sentinel</module>
+        <module>cloud-test</module>
+        <module>cloud-mybatis-plus</module>
     </modules>
 
     <properties>
@@ -88,7 +90,7 @@
         </dependencies>
     </dependencyManagement>
     <!--编译管理 jdk版本和字符集编码-->
-    <build>
+    <!--<build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -100,5 +102,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
 </project>

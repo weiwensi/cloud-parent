@@ -10,6 +10,8 @@
         <module name="cloud-common" />
         <module name="cloud-sentinel" />
         <module name="cloud-order" />
+        <module name="cloud-mybatis-plus" />
+        <module name="cloud-test" />
         <module name="cloud-store" />
       </profile>
     </annotationProcessing>

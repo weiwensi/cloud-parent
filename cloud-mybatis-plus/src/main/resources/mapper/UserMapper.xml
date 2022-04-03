@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tom.mapper.UserMapper">
+
+    <select id="getUserIdentifyInfo" resultType="com.tom.entity.UserIdentifyInfo">
+        select *
+        from user
+                 inner join user_identify on user.id = user_identify.user_id
+    </select>
+</mapper>
