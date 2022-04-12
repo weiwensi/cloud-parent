@@ -15,6 +15,7 @@
         <module>cloud-sentinel</module>
         <module>cloud-test</module>
         <module>cloud-mybatis-plus</module>
+        <module>rabbitmq</module>
     </modules>
 
     <properties>
